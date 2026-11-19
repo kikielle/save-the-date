@@ -551,6 +551,15 @@ def run_tests() -> None:
 # ---------------------------------------------------------------------------
 
 set_website_title("Save The Date")
+set_site_information(
+    author="Keira L",
+    description="Take a personality quiz to be paired with your dream date!",
+    sources="Pinterest for photos",
+    planning=["Claude Conversation.docx", "Planning 0.docx", "Planning 1.docx"],
+    links=["https://github.com/kikielle/save-the-date"]
+)
+hide_debug_information()
+set_website_framed(False)
 add_website_css("body", "font-family: 'Times New Roman', Times, serif; "
                         "background: #fdf6e9; "
                         "color: #4a2c17; max-width: 700px; margin: auto;")
